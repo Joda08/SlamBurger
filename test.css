@@ -1,0 +1,30 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/slamburger/img/thisone.jpg);
+    background-image-filter: blur(5px);
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+  background-attachment: fixed; }
+
+body {
+  font-family: "Titillium Web", "Helvetica Neue", Helevetica, Arial, sans-serif; }
+  body a {
+    font-family: "Lobster", "Helvetica Neue", Helevetica, Arial, sans-serif;
+    font-size: 200%;
+    color: #800000; }
+  body a, body a:active, body a:hover, body a:visited {
+    color: #ED1C24;
+    text-decoration: none; }
+  body a:active, body a:hover {
+    color: #ED1C24;
+    text-decoration: none; }
+  body ul {
+    float: right; }
+
+.navbar {
+  margin-top: 75px; }
+
+.row1 {
+  margin-top: 25px; }
+
+/*# sourceMappingURL=test.css.map */
