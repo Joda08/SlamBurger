@@ -1,6 +1,5 @@
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/slamburger/img/thisone.jpg);
-    background-image-filter: blur(5px);
   background-size: cover;
   background-position: cover;
   height: 100vh;
@@ -17,9 +16,14 @@ body {
     text-decoration: none; }
   body a:active, body a:hover {
     color: #ED1C24;
+    background-color: transparent;
     text-decoration: none; }
   body ul {
     float: right; }
+  body .stuff {
+    font-family: "Titillium Web";
+    font-size: 300%;
+    color: #ffffff; }
 
 .navbar {
   margin-top: 75px; }

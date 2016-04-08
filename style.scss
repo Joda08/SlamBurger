@@ -3,19 +3,8 @@ $light-red: #ED1C24;
 $a-tags: 'a, a:active, a:hover, a:visited';
 $a-tags-hover: 'a:active, a:hover';
 
-@mixin blur($blur) {
-      -webkit-filter: $blur;
-      -moz-filter: $blur;
-      -o-filter: $blur;
-      -ms-filter: $blur;
-      filter: $blur;
-    }
-
 header {
-    
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url(/slamburger/img/thisone.jpg) {
-        filter: blur(5px);
-        }
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url(/slamburger/img/thisone.jpg);
     background-size: cover;
     background-position: cover;
     height:100vh;
@@ -38,11 +27,19 @@ body {
     
     #{$a-tags-hover} {
         color: $light-red;
+        background-color: transparent;
         text-decoration: none;
     }
     
     ul {
         float: right;
+    }
+   
+    
+    .stuff {
+        font-family: "Titillium Web";
+    font-size: 300%;
+    color: #ffffff;
     }
     
 }
@@ -59,3 +56,7 @@ nav {
     margin-top: 25px;
 }
 
+
+.facebook-sizing {
+    inline-block: center;
+}
